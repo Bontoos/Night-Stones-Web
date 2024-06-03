@@ -85,7 +85,7 @@ header {
 }
 
 .nav_links li a:hover {
-    transition: 5s;
+    transition: .3s;
     color: #29ddfb;
     animation: glow 1s ease-in-out infinite alternate;
 }
