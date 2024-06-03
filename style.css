@@ -102,7 +102,7 @@ header {
 button {
     background-color: rgba(255, 255, 255, 00);
     padding: 9px 25px;
-    border: solid 5px rgba(41, 221, 251,1);
+    border: solid 3.5px rgba(41, 221, 251,1);
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
