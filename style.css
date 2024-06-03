@@ -148,3 +148,8 @@ button:hover {
     margin: 40px;
     padding: 15px 35px;
 }
+
+section {
+    height: 100%;
+    background: red;
+}
