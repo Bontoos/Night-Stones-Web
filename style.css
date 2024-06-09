@@ -71,20 +71,20 @@ header {
     animation: shake 0.5s;
 }
 
-.nav_links {
+header .nav_links {
     list-style: none;
 }
 
-.nav_links li{
+header .nav_links li{
     display: inline-block;
     padding: 0 20px;
 }
 
-.nav_links li a {
+header .nav_links li a {
     transition: all 0.5s ease 0s;
 }
 
-.nav_links li a:hover {
+ header.nav_links li a:hover {
     transition: .3s;
     color: #29ddfb;
     animation: glow 1s ease-in-out infinite alternate;
@@ -150,26 +150,6 @@ button:hover {
     padding: 15px 35px;
 }
 
-
-/* Wave */
-
-.wave {
-
-    z-index: -1;
-    --size: 50px;
-    --b: 10px;
-    --m: 0.5;
-    --p: calc(var(--m)*var(--size));
-    --R: calc(var(--size)*sqrt(var(--m)*var(--m) + 1) + var(--b)/2);
-  
-    --_g: #0000 calc(99% - var(--b)), #000 calc(101% - var(--b)) 99%, #0000 101%;
-    mask:
-      radial-gradient(var(--R) at left 50% bottom calc(-1 * var(--p)), var(--_g)) 
-       calc(50% - 2*var(--size)) calc(50% - var(--size)/2 - var(--b)/2) / calc(4 * var(--size)) calc(var(--size) + var(--b)) repeat-x,
-      radial-gradient(var(--R) at left 50% top calc(-1*var(--p)),var(--_g)) 
-       50%  calc(50% + var(--size)/2 + var(--b)/2) / calc(4 * var(--size)) calc(var(--size) + var(--b)) repeat-x;
-  }
-
 /* About Us */
 
 .about {
@@ -201,4 +181,93 @@ button:hover {
     letter-spacing: 3px;
     padding: 60px 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Support */
+
+.support {
+    margin: 200px 0 200px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+    height: 50vh;
+    color: #edf0f1;
+}
+
+.support .left {
+    margin-right: 50px;
+}
+
+.support .right {
+    margin-left: 40px;
+}
+
+.support p {
+    max-width: 500px;
+    text-align: center;
+}
+
+.support h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer */
+
+footer {
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    flex: 0;
+}
+
+footer .right {
+    margin-right: 25px;
+}
+
+footer .right p {
+    font-size: 10px;
+}
+footer .right br {
+    text-decoration: underline;
+    font-weight: 600;   
+}
+
+footer .left {
+    flex-grow: 1;
+    margin-left: 25px;
+}
+
+
+
+footer .nav_links {
+    list-style: none;
+}
+
+footer .nav_links a {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+footer .nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+footer .nav_links li a {
+    transition: all 0.5s ease 0s;
+}
+
+footer .nav_links li a:hover {
+    transition: .3s;
+    color: #29ddfb;
+    animation: glow 1s ease-in-out infinite alternate;
 }
