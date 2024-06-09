@@ -123,6 +123,7 @@ button:hover {
 /* Hero Section Style */
 
 .hero {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,4 +148,57 @@ button:hover {
 .hero button {
     margin: 40px;
     padding: 15px 35px;
+}
+
+
+/* Wave */
+
+.wave {
+
+    z-index: -1;
+    --size: 50px;
+    --b: 10px;
+    --m: 0.5;
+    --p: calc(var(--m)*var(--size));
+    --R: calc(var(--size)*sqrt(var(--m)*var(--m) + 1) + var(--b)/2);
+  
+    --_g: #0000 calc(99% - var(--b)), #000 calc(101% - var(--b)) 99%, #0000 101%;
+    mask:
+      radial-gradient(var(--R) at left 50% bottom calc(-1 * var(--p)), var(--_g)) 
+       calc(50% - 2*var(--size)) calc(50% - var(--size)/2 - var(--b)/2) / calc(4 * var(--size)) calc(var(--size) + var(--b)) repeat-x,
+      radial-gradient(var(--R) at left 50% top calc(-1*var(--p)),var(--_g)) 
+       50%  calc(50% + var(--size)/2 + var(--b)/2) / calc(4 * var(--size)) calc(var(--size) + var(--b)) repeat-x;
+  }
+
+/* About Us */
+
+.about {
+    margin: 200px 0 200px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+    height: 50vh;
+    color: #edf0f1;
+}
+
+.about .left {
+    margin-right: 50px;
+}
+
+.about .right {
+    margin-left: 40px;
+}
+
+.about p {
+    max-width: 500px;
+    text-align: center;
+}
+
+.about h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
 }
