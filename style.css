@@ -14,10 +14,16 @@ body {
     background-attachment:fixed;
     background-size:cover;
 
-    display: flex;
-    flex-direction: column;
     
 }
+
+@media (max-width: 768px) {
+    body {
+        background-position: start center;
+    }
+}  
+
+
 body::after {
     content: "";
     position: fixed;
