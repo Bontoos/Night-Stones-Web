@@ -11,7 +11,7 @@ body {
     background-image: url('IMAGES/pixelcut-export.png');
     background-repeat:repeat;
     background-position:center center;
-    background-attachment:fixed;
+    background-attachment:;
     background-size:cover;
 
     
