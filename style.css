@@ -8,8 +8,8 @@
 }
 
 body {
-    background-image: url('IMAGES/pixelcut-export.png');
-    background-repeat:repeat;
+    background-image: url('IMAGES/pixelcut-export.jpg');
+    background-repeat:no-repeat;
     background-position:center center;
     background-attachment:fixed;
     background-size:cover;
