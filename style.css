@@ -102,7 +102,7 @@ header .nav_links li a {
     transition: all 0.5s ease 0s;
 }
 
- header.nav_links li a:hover {
+ header nav .nav_links li a:hover {
     transition: .3s;
     color: #29ddfb;
     animation: glow 1s ease-in-out infinite alternate;
