@@ -2,7 +2,7 @@
 
 // Add this new function at the end of your file
 function setupSmoothScrolling() {
-    const navLinks = document.querySelectorAll('.nav-link');
+    const navLinks = document.querySelectorAll('.nav_links');
 
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
