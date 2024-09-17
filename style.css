@@ -90,7 +90,7 @@ header {
 }
 
 .logo:hover {
-    height: 130px;
+    background: red;
 }
 
 header .nav_links {
