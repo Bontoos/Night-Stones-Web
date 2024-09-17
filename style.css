@@ -90,7 +90,7 @@ header {
 }
 
 .logo:hover {
-    animation: shake 0.5s;
+    height: 130px;
 }
 
 header .nav_links {
