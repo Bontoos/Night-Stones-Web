@@ -144,7 +144,7 @@ button:hover {
 
 /* Hero Section Style */
 
-.hero {
+#hero {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -155,26 +155,26 @@ button:hover {
     color: #edf0f1;
 }
 
-.hero p {
+#hero p {
     max-width: 500px;
     text-align: center;
 }
 
-.hero h1 {
+#hero h1 {
     text-align: center;
     letter-spacing: 3px;
     padding: 60px 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.hero button {
+#hero button {
     margin: 40px;
     padding: 15px 35px;
 }
 
 /* About Us */
 
-.about {
+#about {
     margin: 200px 0 200px 0;
     display: flex;
     flex-direction: row;
@@ -186,7 +186,7 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-    .about {
+    #about {
         flex-direction: column;
         margin: 100px 0 100px 0;
         
@@ -198,7 +198,7 @@ button:hover {
   }
 
 @media (max-width: 768px) {
-    .about {
+    #about {
         flex-direction: column;
         margin: 100px 0 100px 0;
         padding: 10px;
@@ -210,20 +210,20 @@ button:hover {
     }
 }  
 
-.about .left {
+#about .left {
     margin-right: 50px;
 }
 
-.about .right {
+#about .right {
     margin-left: 40px;
 }
 
-.about p {
+#about p {
     max-width: 500px;
     text-align: center;
 }
 
-.about h1 {
+#about h1 {
     text-align: center;
     letter-spacing: 3px;
     padding: 60px 0;
@@ -232,7 +232,7 @@ button:hover {
 
 /* Support */
 
-.support {
+#support {
     margin: 200px 0 200px 0;
     display: flex;
     flex-direction: row;
@@ -244,26 +244,26 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-    .support {
+    #support {
         margin: 100px 0 100px 0;
         padding: 0;
     }
   }
 
-.support .left {
+#support .left {
     margin-right: 50px;
 }
 
-.support .right {
+#support .right {
     margin-left: 40px;
 }
 
-.support p {
+#support p {
     max-width: 500px;
     text-align: center;
 }
 
-.support h1 {
+#support h1 {
     text-align: center;
     letter-spacing: 3px;
     padding: 60px 0;
