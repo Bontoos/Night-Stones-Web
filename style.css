@@ -275,7 +275,9 @@ button:hover {
 }
 
 .left a {
+    display: flex;
     align-self: center;
+    justify-self:center;
 }
 
 /* footer */
