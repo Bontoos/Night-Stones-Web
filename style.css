@@ -86,7 +86,7 @@ header {
     height: 125px;
     width: auto;
     cursor: pointer;
-    pointer-events: none
+    pointer-events: none;
     transition: .5s;
 }
 
