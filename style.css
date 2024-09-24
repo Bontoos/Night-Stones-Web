@@ -86,12 +86,11 @@ header {
     height: 125px;
     width: auto;
     cursor: pointer;
+    pointer-events: none
     transition: .5s;
 }
 
-img {
-    pointer-events: none
-}
+
 
 .logo:hover {
     animation: shake 0.5s;
