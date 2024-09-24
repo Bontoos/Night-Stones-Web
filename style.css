@@ -89,8 +89,13 @@ header {
     transition: .5s;
 }
 
+img {
+    pointer-events: none
+}
+
 .logo:hover {
     animation: shake 0.5s;
+
 }
 
 header .nav_links {
