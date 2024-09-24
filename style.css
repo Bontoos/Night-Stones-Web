@@ -274,6 +274,10 @@ button:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.left a {
+    align-self: center;
+}
+
 /* footer */
 
 footer {
